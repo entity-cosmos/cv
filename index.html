@@ -1,57 +1,274 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Srajan B Shetty</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
+
   <body>
-    <div class="t-container">
-      <img class="t-cloud" src="images\cloud.png" alt="cloud-img">
-      <h1>I'm Srajan</h1>
-      <h2 class="h2">A Programmer</h2>
-      <img class="b-cloud" src="images\cloud.png" alt="cloud-img">
-      <img src="images\mountain.png" alt="mountain-img">
+    <div id="mobile-menu-open" class="shadow-large">
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <div class="m-container">
-      <div class="profile">
-        <img class="pro" src="images\srajan.jpg" alt="srajanbshetty" height="500" width="500"> 
-        <h2>Hello.</h2>
-        <p class="ps">I'm Srajan basically a programmer and web developer.</p>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
       </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="img1" src="https://media0.giphy.com/media/lOgu1OnjYF2GHBfRU4/200w.webp?cid=ecf05e4772b622b9c7d8f9eef5e7c86c7533576b7a3da963&rid=200w.webp" alt="skills">
-          <h3>1. Programming</h3>
-          <p>I started programming at the age of 16 and i have learnt C, C++ and Python languages till now.</p>
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+      <div id="lead-content">
+        <h1>Srajan B Shetty</h1>
+        <h2>Software Engineer</h2>
+      </div>
+      <!-- End #lead-content -->
+
+      <div id="lead-overlay"></div>
+
+      <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+      </div>
+      <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="heading">About Me</h2>
+          </div>
+          <div class="col-md-8">
+            <p>
+              Sure, here's a bio for you based on the information provided: Hi
+              there! My name is Srajan B Shetty, and I'm a software engineer at
+              NGX Technologies PVT LTD. I'm passionate about creating innovative
+              solutions and developing new software applications to solve
+              complex problems. With my expertise in programming languages such
+              as C, C++, Python, Node.js, React, Django, and Amazon DynamoDB, I
+              am skilled at building scalable and robust software solutions that
+              can handle large amounts of data and complex business logic. I am
+              always looking for new and exciting challenges that push my
+              abilities to their limits. In my free time, I enjoy exploring new
+              technologies and staying up-to-date with the latest trends in
+              software development. I also enjoy participating in hackathons and
+              contributing to open-source projects that help to make the world a
+              better place. Thank you for visiting!
+            </p>
+          </div>
         </div>
-        <div class="skill-row">
-          <img class="img2" src="https://media3.giphy.com/media/d9IfL7seBexHLct75B/200w.webp?cid=ecf05e4772b622b9c7d8f9eef5e7c86c7533576b7a3da963&rid=200w.webp" alt="Skils">
-          <h3>2. Web development</h3>
-          <p>I also started learning web development at the of 18 and i have learnt HTML, CSS, Js, React Js, SQLite and Django till now.</p>
+      </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="February 2023 – ">
+          <h3>NGX Technologies Pvt. Ltd.</h3>
+          <h4>Software Engineer</h4>
         </div>
       </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>My address</h3>
-        <p class="pc">Sri Mookambika Nilaya,  Near railway bridge , angalli rd, Basrur, Kundpur taluk. 576211</p>
-        <a class="btn" href="mailto:srajanbshetty67@gmail.com">CONTACT ME</a>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+        <h3>SRSMNGFG College Barkur</h3>
+        <span class="education-date">June 2019 - Sept 2023</span>
+        <h4>Bachelor Of Computer Application</h4>
+      </div>
+      <!-- End .education-block -->
+
+      <div class="education-block">
+        <h3>RN Shetty PU College Kundapura</h3>
+        <span class="education-date">June 2017 - April 2019</span>
+        <h4>PCMC</h4>
+      </div>
+
+      <div class="education-block">
+        <h3>Govt Highschool Basrur</h3>
+        <span class="education-date">June 2014 - April 2017</span>
+        <h4>Highschool</h4>
+      </div>
+      <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+      <h2 class="heading">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/project.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Prime Care</h3>
+              <p>
+                PrimeCare is a online store for buying and selling online
+                medicines.
+              </p>
+              <a href="https://github.com/entity-cosmos/PrimeCare"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/project.jpg" />
+            </div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Simon-Game</h3>
+              <p>
+                Its a fun game where the site generates random color where user
+                clicks the right button to succed in the game..
+              </p>
+              <a href="https://github.com/entity-cosmos/Simon-Game"
+                >View Project</a
+              >
+            </div>
+            <!-- End .project-info -->
+          </div>
+          <!-- End .project -->
+        </div>
       </div>
     </div>
+    <!-- End #projects -->
 
-
-    <div class="b-container">
-      <a class="footer-link" href="https://github.com/entity-cosmos">Git Hub</a>
-      <a class="footer-link" href="https://www.instagram.com/srajan_b_shetty/">Instagram</a>
-      <a class="footer-link" href="https://twitter.com/srajan_b">Twitter</a>
-      <a class="footer-link" href="https://www.facebook.com/srajan.bshetty">Facebook</a>
-      <p class="copy">© 2022 Srajan B Shetty</p>
+    <div id="skills">
+      <h2 class="heading">Skills</h2>
+      <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Dynamo DB</li>
+        <li>Django</li>
+      </ul>
     </div>
+    <!-- End #skills -->
 
+    <div id="contact">
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+        <form
+          method="POST"
+          action="https://formspree.io/srajanbshetty67@gmail.com"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="Contact request from personal website"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 copyright">
+            <p>
+              Copyright &copy; <span id="current-year">2023</span> Srajan B
+              Shetty
+            </p>
+          </div>
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="col-sm-5 social">
+            <ul>
+              <li>
+                <a href="https://github.com/entity-cosmos" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/srajan-b-shetty-3a293922b/"
+                  target="_blank"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/srajan.bshetty/"
+                  target="_blank"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/srajan_b" target="_blank"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
   </body>
 </html>
