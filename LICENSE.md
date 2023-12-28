@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Srajan B Shetty
+Copyright (c) 2024 Srajan B Shetty
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
